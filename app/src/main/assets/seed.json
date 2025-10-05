@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {"id": 1, "name": "Food", "icon": "🍚"},
+    {"id": 2, "name": "Energy", "icon": "⚡"},
+    {"id": 3, "name": "Medicine", "icon": "💊"},
+    {"id": 4, "name": "Transport", "icon": "🚌"}
+  ],
+  "subcategories": [
+    {"id": 11, "category_id": 1, "name": "Grains"},
+    {"id": 12, "category_id": 1, "name": "Edible Oil"},
+    {"id": 21, "category_id": 2, "name": "Fuel"},
+    {"id": 22, "category_id": 2, "name": "Electricity"},
+    {"id": 31, "category_id": 3, "name": "Essential Drugs"},
+    {"id": 41, "category_id": 4, "name": "Fares"}
+  ],
+  "products": [
+    {"id": 1001, "subcategory_id": 11, "name": "Rice (BR-28)", "price": 52.0, "unit": "BDT/kg", "source_url": "https://mincom.gov.bd/price", "gov_body": "Ministry of Commerce", "last_updated": "2025-10-05"},
+    {"id": 1002, "subcategory_id": 12, "name": "Soybean Oil", "price": 168.0, "unit": "BDT/L", "source_url": "https://mincom.gov.bd/price", "gov_body": "Ministry of Commerce", "last_updated": "2025-10-05"},
+    {"id": 2001, "subcategory_id": 21, "name": "Diesel", "price": 109.0, "unit": "BDT/L", "source_url": "https://berc.gov.bd/", "gov_body": "BERC", "last_updated": "2025-10-05"},
+    {"id": 2002, "subcategory_id": 21, "name": "Octane 95", "price": 130.0, "unit": "BDT/L", "source_url": "https://berc.gov.bd/", "gov_body": "BERC", "last_updated": "2025-10-05"},
+    {"id": 2201, "subcategory_id": 22, "name": "Residential Tariff", "price": 9.3, "unit": "BDT/kWh", "source_url": "https://berc.gov.bd/", "gov_body": "BERC", "last_updated": "2025-10-05"},
+    {"id": 3001, "subcategory_id": 31, "name": "Paracetamol 500mg (10 tablets)", "price": 30.0, "unit": "BDT/pack", "source_url": "https://dgda.gov.bd/", "gov_body": "DGDA", "last_updated": "2025-10-05"},
+    {"id": 4001, "subcategory_id": 41, "name": "Bus Fare (City)", "price": 2.5, "unit": "BDT/km", "source_url": "https://bbrta.gov.bd/", "gov_body": "BRTA", "last_updated": "2025-10-05"}
+  ],
+  "generatedAt": "2025-10-05T00:00:00Z"
+}
